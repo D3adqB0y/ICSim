@@ -11,18 +11,20 @@ After this do:
   ```shell sudo apt-get install libsdl2-dev libsdl2-image-dev can-utils ```
   
 Setup a virtual can interface:
- ```shell 
+
+ ```
   sudo modprobe can
   sudo modprobe vcan
   sudo ip link add dev vcan0 type vcan
   sudo ip link set up vcan0  ```
   
 After this do:
-```shell
+
+```
   make all  ```
   
 The Usage of ICSim:
-```shell
+
+```
    ./icsim vcan0	
-   ./controls vcan0
- ```
+   ./controls vcan0 ```
