@@ -17,14 +17,12 @@ Setup a virtual can interface:
   sudo modprobe vcan
   sudo ip link add dev vcan0 type vcan
   sudo ip link set up vcan0 
-  
   ```
   
 After this do:
 
 ```
   make all     
-  
 ```
   
 The Usage of ICSim:
