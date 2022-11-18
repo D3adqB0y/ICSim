@@ -1,5 +1,4 @@
-# ICSim
-ICSim Full clean Installation 
+#ICSim Full clean Installation 
 
 Get ICSim working clean!
 
