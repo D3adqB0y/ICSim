@@ -6,7 +6,7 @@ First, look if your OP System is UpToDate:
 
   if you use Linux: 
   ```
-  shell apt update && apt upgrade               
+  apt update && apt upgrade               
   ```
   
 After this do:
